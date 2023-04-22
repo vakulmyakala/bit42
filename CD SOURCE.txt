@@ -1,0 +1,117 @@
+<html>
+
+<head>
+<title>REGISTRATION </title>
+</head>
+
+<body>
+<h1><center >  PLACEMENT REGISTRATION  PORTAL </center></h1>
+<marquee bgcolor="Orange" scrollamount=10 direction=right  ><b>WELCOME</b></marquee>
+
+<form align=center>
+</br>
+<fieldset>
+<legend> <b> ENTER YOUR DETAILS</b> </legend>
+</br>
+<b>First Name:</b>
+<input  type="text" placeholder="First Name"  name="Fname" />
+</br>
+</br>
+<b>Middle Name :</b>
+<input  type="text" placeholder="Middle Name"  name="Mname" />
+</br>
+</br>
+<b>Last Name :</b>
+<input  type="text" placeholder="Last Name"  name="Lname" />
+</br>
+</br> 
+<b>Email ID:</b> 
+  <input type="email" placeholder="Email"  name="Email" />
+</br>
+</br>
+<b>Mobile :</b> 
+<input type=text placeholder="Mobile number" name="Mobile" />
+</br>
+</br>
+<label for="Gender"  ><b> Gender : </b> </label>
+<input type=radio  id="Gender" value ="Male" name="Gender" /> <b>Male</b>
+<input type=radio id="Gender" value ="Feale" name="Gender" /> <b>Female</B>
+</br>
+</br>
+<b>Enter Your Address Here</b></br>
+<textarea placeholder="Address Box" rows=5 cols=30>
+</textarea>
+</br>
+</br>
+ <b>Are You Graduated :</b>
+<select name="Dropdown" >
+<option value="NS" selected > SELECT</option>
+<option value="G" > Graduated</option>
+<option value="uG" > Under Gradute</option>
+<option value="PG" > Post Graduated</option>
+<option value="W" > Working</option>
+<option value="O" > Others</option>
+</select>
+</br>
+</br>
+<b>Year of Pass :</b>
+<select type="YOP" >
+<option value="null" selected > NOT SELECTED</option>
+<option value="2023" > 2023</option>
+<option value="2022" > 2022</option>
+<option value="2021" > 2021</option>
+<option value="2020" > 2020</option>
+<option value="2019" > 2019</option>
+<option value="other" > other</option>
+</select>
+</br>
+</br>
+<b>Engineering Stream :</b>
+<select type="Branch" >
+<option value="null" selected > NOT SELECTED</option>
+<option value="CIVIL" > CIVIL</option>
+<option value="ECE" > ECE</option>
+<option value="MECH" > MECHANICAL</option>
+<option value="EEE" > EEE</option>
+<option value="CSE" > CSE</option>
+<option value="MINING" > MINING</option>
+<option value="OTHER" > OTHER</option>
+</select>
+</br>
+</br>
+<b> Graduation CGPA :</b>
+<input type="text" name="CGPA" />
+</br>
+</br>
+<label for="Backlog" ><b>Do You Have Any Active Backlogs :</b></label>
+<input type="radio" id="Backlog" name="Backlog" value="Yes" /><b>YES</b>
+<input type="radio" id="Backlog" name="Backlog" value="No" /><b>NO</b>
+</br>
+</br>
+<b>Languages Known : </b>
+<input type="checkbox" name="J" value="on" />Java
+<input type="checkbox" name="C" value="on" />C
+<input type="checkbox" name="C++" value="on" />C++
+<input type="checkbox" name="P" value="on" />Python
+<input type="checkbox" name="R" value="on" />Ruby
+<input type="checkbox" name="O" value="on" />Other
+</br>
+</br>
+<b>Upload Resume : </b>
+<input type="file" name="fileupload" accept="file_extension"/>
+</br>
+</br>
+<input  type="checkbox"/>
+" I agree to the terms and conditions as set out by the user agreement "
+</br>
+</br>
+<input type="button" value="SAVE" />
+<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfwZ0CvkiW9q0bAxlMJGmeYRPrVbxZ0MVxEw&usqp=CAU"><input type="button" value="SUBMIT" /></a>
+
+
+</fieldset>
+</form>
+
+</body>
+
+</html>
